@@ -22,6 +22,8 @@ public class Main {
 
         System.out.println(bucleSwich("PRIMAVERA"));
 
+        System.out.println(bucleSwich("Test"));
+
 
 
 
@@ -85,6 +87,8 @@ public class Main {
             case "PRIMAVERA":
                 System.out.println("Estas en Primavera");
                 break;
+            default:
+                System.out.println("No es una estacion valida");
         }
         return "Bucle Finalizado";
 
